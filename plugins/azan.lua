@@ -1,4 +1,4 @@
---Start By @Tele_Sudo
+
 do
 function run_bash(str)
     local cmd = io.popen(str)
