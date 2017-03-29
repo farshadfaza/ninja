@@ -26,9 +26,9 @@ sudo reboot
 
 cd $HOME
 
-git clone 
+git clone https://github.com/farshadfaza/ninja
 
-cd 
+cd ninja
  
 chmod +x permag.sh
 
@@ -68,7 +68,7 @@ end
 
 اول کد های زیر را بزنید 
 
-cd 
+cd ninja
 
 killall screen
 
@@ -77,7 +77,7 @@ killall -9 bash
 ترمینال بسته میشه بسته نشد ببندین
 بعد کد های زیر را وارد کنین
 
-cd 
+cd ninja
 
 screen ./ninja.sh
 
