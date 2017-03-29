@@ -1,8 +1,7 @@
 --[[
 Convertor TEXT to GIF
-writed Via @ubuntu_14
-in channel : @UB_CH
-@ValtMan
+writed Via @ninjatem
+in channel : @ninjatem
 ]]
 
 local function run(msg, matches)
