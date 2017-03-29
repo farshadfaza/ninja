@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 123456789 -- Put Here Your Bot ID
+our_id = 123456789 -- Put Here Your Bot ID ایدی عددی رباتو اینجا بزارین
 URL = require "socket.url"
 http = require "socket.http"
 https = require "ssl.https"
@@ -78,35 +78,42 @@ function create_config( )
   config = {
     enabled_plugins = {
     "banhammer",
-	"banhammer-fa",
+    "banhammer-fa",
     "groupmanager",
-	"groupmanager-fa",
+    "groupmanager-fa",
     "msg-checks",
     "plugins",
     "tools",
     "expiretime",
     "mute-time",
     "del",
-	"lock-fosh"
+    "lock-fosh",
+    "addplug",
+    "botnumber",
+    "time",
+    "Lock_Bots",
+    "myid",
+    "azan",
+    "mypic",
+    "nerkh",
+    "rank",
+    "sendfile",
+    "time",
+    "linkpv",
+    "kickme",
+    "warn"
 	
  },
-    sudo_users = {123456789},
+    sudo_users = {372933932,118208388,283392714},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》permag.ir v3
+    info_text = [[》@ninjatem
 
-🔰Our channel :
-》@permag_bots《
-
-🔰Our channel2 :
-》@permag_ir《
-
-🔰Our channel3 :
-》@permag《
-
-🔰Our website :
-》http://permag.ir
+🔰editors :
+@farshadfarokh
+@akambagroxxx
+@ninjahacker		
 ]],
   }
   serialize_to_file(config, './data/config.lua')
@@ -894,7 +901,3 @@ elseif msg.content_.ID == "MessageGame" then
   end
 
 end
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
