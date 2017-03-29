@@ -408,8 +408,8 @@ return {
 	pre_process = pre_process
 }
 -- کد های پایین در ربات نشان داده نمیشوند
--- ادیت توسط :
--- @ninjatem
--- @farshadfarokh
--- @akambagroxxx
--- @ninjahacker
+-- http://permag.ir
+-- @permag_ir
+-- @permag_bots
+-- @permag
+-- permag
