@@ -1,4 +1,5 @@
-کد های زیر رو ب ترتب در یوزر وارد کنین :
+
+کد های زیر رو ب ترتب در یوزر وارد کنین:
 
 1 . sudo apt-get update
 
@@ -36,9 +37,7 @@ chmod +x ninja.sh
 
 ./permag.sh install
 
-./ninja.sh install
-
-./ninja.sh
+./permag.sh
 
 شماره و کد رو وارد کنید
 
